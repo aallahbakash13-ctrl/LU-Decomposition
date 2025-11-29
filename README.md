@@ -34,7 +34,7 @@ RegisterNumber: 25004583
 */
 ```
 /<img width="639" height="657" alt="Screenshot 2025-11-23 205031" src="https://github.com/user-attachments/assets/0f09b9eb-f325-4aa8-8e5b-67cc>
-
+```
 ## Output:
 ![lu decomposition]()
 <img width="1245" height="602" alt="Screenshot 2025-11-23 205019" src="https://github.com/user-attachments/assets/a67d2ce1-15db-4c19-a1b7-d906ece67fe2" />

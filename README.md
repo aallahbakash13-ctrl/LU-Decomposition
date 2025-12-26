@@ -15,23 +15,22 @@ the Lower triangular matrix (L), Upper triangular matrix (U), and permutation ma
 4. Print the matrices L, U, and P
 
 ## Program:
-(i) To find the L and U matrix
 ```
+(i) To find the L and U matrix
 /*
 Program to find the L and U matrix.
 Developed by: ALLAHBAKASH A
 RegisterNumber: 25004583
 */
-```
 import numpy as np
 from scipy.linalg import lu
 a=np.array(eval(input()))
 p,l,u=lu(a)
 print(l)
 print(u)
-```
+
 (ii) To find the LU Decomposition of a matrix
-```
+
 /*
 Program to find the LU Decomposition of a matrix.
 Developed by: ALLAHBAKASH A

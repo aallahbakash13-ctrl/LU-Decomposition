@@ -23,7 +23,12 @@ Developed by: ALLAHBAKASH A
 RegisterNumber: 25004583
 */
 ```
-<img width="739" height="707" alt="Screenshot 2025-11-23 205002" src="https://github.com/user-attachments/assets/32a2fdf9-1ddc-483b-8ac0-ba1264909c2d" />
+import numpy as np
+from scipy.linalg import lu
+a=np.array(eval(input()))
+p,l,u=lu(a)
+print(l)
+print(u)
 ```
 (ii) To find the LU Decomposition of a matrix
 ```
@@ -32,13 +37,18 @@ Program to find the LU Decomposition of a matrix.
 Developed by: ALLAHBAKASH A
 RegisterNumber: 25004583
 */
-```
-/<img width="639" height="657" alt="Screenshot 2025-11-23 205031" src="https://github.com/user-attachments/assets/0f09b9eb-f325-4aa8-8e5b-67cc>
+import numpy as np
+from scipy.linalg import lu_factor,lu_solve
+a=np.array(eval(input()))
+b=np.array(eval(input()))
+lu,pivot=lu_factor(a)
+x=lu_solve((lu,pivot),b)
+print(x)
 ```
 ## Output:
-![lu decomposition]()
-<img width="1245" height="602" alt="Screenshot 2025-11-23 205019" src="https://github.com/user-attachments/assets/a67d2ce1-15db-4c19-a1b7-d906ece67fe2" />
-<img width="985" height="314" alt="Screenshot 2025-11-23 205042" src="https://github.com/user-attachments/assets/5a36bb30-87db-4256-80e7-427e09e95547" />
+<img width="1293" height="877" alt="Screenshot 2025-12-26 211920" src="https://github.com/user-attachments/assets/9c66ccde-cb60-46b1-8a1e-68de77120a64" />
+
+<img width="1338" height="857" alt="Screenshot 2025-12-26 211902" src="https://github.com/user-attachments/assets/309eab8f-73f5-4ee7-8133-1794c1730120" />
 
 
 
